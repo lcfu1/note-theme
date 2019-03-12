@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" >
+		<link rel="stylesheet" href="https://lcfu1.github.io/note-theme/css/sy.css">
+	</head>
+	<body>
+		<div id="app">
+		</div>
+		<script>
+			window.$docsify = {
+				name: {{site.name}},
+				homepage: {{site.homepage}},
+				loadSidebar: {{site.loadSidebar}},
+				alias: {{site.alias}},
+				subMaxLevel: {{site.subMaxLevel}},
+				search: {
+					noData: {
+						'/': '没有结果!'
+					},
+					paths: ['/'],
+					placeholder: {
+						'/': '搜索'
+					}
+				},
+			}
+		</script>
+		<script src="https://lcfu1.github.io/note-theme/js/docsify.min.js">
+		</script>
+		<script src="https://lcfu1.github.io/note-theme/js/search.min.js">
+		</script>
+	</body>
+</html>
