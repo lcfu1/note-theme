@@ -1,5 +1,0 @@
-name: '122'
-homepage: 'README.md'
-loadSidebar: 'sidebar.md'
-alias: '/.*/sidebar.md':'sidebar.md'
-subMaxLevel: 2
